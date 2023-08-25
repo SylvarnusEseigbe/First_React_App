@@ -1,0 +1,110 @@
+.App{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.appTitle h1{
+   text-align: center;
+   
+}
+
+.addTask{
+    margin: 0 auto;
+    padding:  100px  ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color:antiquewhite;
+}
+
+.addTask input{
+    border-radius: 8px;
+    border: 1px solid #646cff;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+}
+
+button {
+    border-radius: 8px;
+    background-color: #646cff;
+    color: #fff;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    border: none;
+}
+
+button:hover {
+    background-color: #42459b;
+    color: #fff;
+}
+
+button:focus,
+  button:focus-visible {
+    outline: 4px auto #26285c;
+    background-color: #646cff;
+    color: #fff;
+}
+
+.addTask input:focus,
+  button:focus-visible {
+    outline: 4px auto #26285c;
+}
+
+.btnComplete{
+    background-color: #299617;
+}
+
+.btnComplete:hover{
+    background-color: #186e09;
+}
+
+.btnComplete:focus-visible,
+.btnComplete:focus{
+    background-color: #186e09;
+}
+
+.btnDelete{
+    background-color: red;
+}
+
+.btnDelete:hover{
+    background-color: rgb(196, 9, 9);
+}
+
+.btnDelete:focus-visible,
+.btnDelete:focus{
+    background-color: rgb(196, 9, 9);
+}
+.btnDelete{
+    background-color: red;
+}
+
+.btnDelete:hover{
+    background-color: rgb(196, 9, 9);
+}
+
+.btnDelete:focus-visible,
+.btnDelete:focus{
+    background-color: rgb(196, 9, 9);
+}
+
+
+.list{
+    text-align: center;
+}
+.list-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
